@@ -63,6 +63,13 @@ margin: 1.875rem 0;
 FOOTER 
 */
 
+footer {
+    color: white;
+}
+
+.footer-container {
+    text-align: center;
+}
 
 /* 
 RESPONSIVE
