@@ -54,6 +54,7 @@ margin: 1.875rem 0;
 
 .benefit-card {
     background-color: white;
+    margin: .625rem 0;
 }
 
 
@@ -122,6 +123,17 @@ MAIN
     width: calc((100% / 2) - 1.25rem);
 }
 
+.about-us-content {
+    display: flex;
+}
+
+.about-us-left {
+    width: 60%;
+}
+
+.about-us-right {
+    width: 40%;
+}
 
 
 /* 
@@ -172,7 +184,13 @@ MAIN
     width: calc((100% / 3) - 1.25rem);
 }
 
+.about-us-left {
+    width: 80%;
+}
 
+.about-us-right {
+    width: 20%;
+}
 
 
 /* 
@@ -186,7 +204,7 @@ FOOTER
 DEBUG 
 */
 
-.debug .strategy-card, .photo-partner, .info-partner, .benefit-card {
+.debug .strategy-card, .photo-partner, .info-partner, .benefit-card, .about-us-left, .about-us-right {
     border: 1px solid black;
 }
 
