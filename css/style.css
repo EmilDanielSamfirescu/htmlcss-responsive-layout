@@ -42,9 +42,10 @@ margin: 1.875rem 0;
     margin: .625rem;
 }
 
-.card > div {
+.card > div  {
     padding: .625rem;
 }
+
 
 /* 
 FOOTER 
@@ -111,6 +112,17 @@ MAIN
     width: 50%;
 }
 
+.strategy-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.strategy-card {
+    padding: 0.625rem;
+}
+
+
+
 /* 
 FOOTER 
 */
@@ -121,3 +133,7 @@ FOOTER
 /* 
 DEBUG 
 */
+
+.debug .strategy-card {
+    border: 1px solid black;
+}
