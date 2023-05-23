@@ -28,9 +28,11 @@ HEADER
 /* 
 MAIN 
 */
+
 main > section {
 margin: 1.875rem 0;
 }
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +47,11 @@ margin: 1.875rem 0;
 .card > div  {
     padding: .625rem;
 }
+
+.header-section-partner, .main-section-partner {
+    text-align: center;
+}
+
 
 
 /* 
@@ -74,6 +81,22 @@ MAIN
 
 .card:first-child {
     width: calc(((100% / 3) * 2) - 1.25rem);
+}
+
+.main-section-partner {
+    text-align: left;
+}
+
+.partner-card {
+    display: flex;
+}
+
+.photo-partner {
+    width: 20%;
+}
+
+.info-partner {
+    width: 80%;
 }
 
 
@@ -134,6 +157,13 @@ FOOTER
 DEBUG 
 */
 
-.debug .strategy-card {
+.debug .strategy-card, .photo-partner, .info-partner {
     border: 1px solid black;
+}
+
+.debug .photo-partner {
+
+}
+.debug .info-partner {
+
 }
