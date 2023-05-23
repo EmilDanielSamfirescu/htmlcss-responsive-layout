@@ -10,6 +10,36 @@ TIPHOGRAPHY SYSTEM
     --last-color: #333333;
 }
 
+.first-color-bg {
+    background-color: var(--first-color);
+}
+
+.first-color-text {
+    color: var(--first-color);
+}
+
+.secondary-color-bg {
+    background-color: var(--first-color-light);
+}
+
+.secondary-color-text {
+    color: var(--first-color-light);
+}
+
+.secondary-color-bg {
+    background-color: var(--secondary-color);
+}
+
+.secondary-color-text {
+    color: var(--secondary-color);
+}
+
+.last-color-bg {
+    background-color: var(--last-color);
+}
+
+
+
 /* 
 RESET 
 */
@@ -24,3 +54,8 @@ RESET
 GENERAL 
 */
 
+
+
+.container {
+    padding: 0 1.25rem;
+}

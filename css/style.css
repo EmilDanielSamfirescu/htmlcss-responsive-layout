@@ -2,6 +2,27 @@
 HEADER 
 */
 
+.header-main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem 0;
+}
+
+.header-main-content nav.nav-container {
+    display: none;
+}
+
+.nav-container > ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-container > ul > li > a {
+    padding-left: 0.625rem;
+    text-decoration: none;
+}
+
 /* 
 MAIN 
 */
@@ -40,6 +61,14 @@ FOOTER
 /* 
 HEADER 
 */
+
+.header-main-content nav.nav-container {
+    display: block;
+}
+
+.header-main-content .hamburger-container {
+    display: none;
+}
 
 /* 
 MAIN 
