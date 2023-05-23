@@ -19,13 +19,32 @@ HEADER
 }
 
 .nav-container > ul > li > a {
+    display: inline-block;
     padding-left: 0.625rem;
     text-decoration: none;
+    color: white;
 }
 
 /* 
 MAIN 
 */
+main > section {
+margin: 1.875rem 0;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -.625rem;
+}
+
+.card {
+    width: calc(100% - 1.25rem);
+    margin: .625rem;
+}
+
+.card > div {
+    padding: .625rem;
+}
 
 /* 
 FOOTER 
@@ -47,6 +66,15 @@ HEADER
 /* 
 MAIN 
 */
+
+.card {
+    width: calc((100% / 3) - 1.25rem);
+}
+
+.card:first-child {
+    width: calc(((100% / 3) * 2) - 1.25rem);
+}
+
 
 /* 
 FOOTER 
@@ -73,6 +101,15 @@ HEADER
 /* 
 MAIN 
 */
+
+.main-card-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-card-content > div {
+    width: 50%;
+}
 
 /* 
 FOOTER 

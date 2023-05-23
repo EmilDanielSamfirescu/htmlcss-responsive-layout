@@ -18,11 +18,11 @@ TIPHOGRAPHY SYSTEM
     color: var(--first-color);
 }
 
-.secondary-color-bg {
+.first-color-light-bg {
     background-color: var(--first-color-light);
 }
 
-.secondary-color-text {
+.first-color-light-text {
     color: var(--first-color-light);
 }
 
@@ -57,5 +57,7 @@ GENERAL
 
 
 .container {
+    max-width: 1140px;
     padding: 0 1.25rem;
+    margin: 0 auto;
 }
