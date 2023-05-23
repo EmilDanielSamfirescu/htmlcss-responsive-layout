@@ -1,23 +1,24 @@
 /* 
-TIPHOGRAPHY SYSTEM
--COLORS
-
+HEADER 
 */
 
 /* 
-RESET 
+MAIN 
 */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* 
-GENERAL 
+FOOTER 
 */
 
+
+/* 
+RESPONSIVE
+*/
+
+
+/* --- TABLET DA 768PX IN POI --- */
+
+@media screen and (min-width: 768px) {
 /* 
 HEADER 
 */
@@ -29,6 +30,27 @@ MAIN
 /* 
 FOOTER 
 */
+}
+
+
+
+/* --- DESKTOP DA 992PX IN POI --- */
+
+@media screen and (min-width: 992px) {
+/* 
+HEADER 
+*/
+
+/* 
+MAIN 
+*/
+
+/* 
+FOOTER 
+*/
+}
+
+
 
 /* 
 DEBUG 
