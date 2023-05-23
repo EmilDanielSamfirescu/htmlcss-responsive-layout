@@ -2,9 +2,16 @@
 HEADER 
 */
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 .header-main-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.625rem 0;
 }
 
@@ -23,14 +30,20 @@ HEADER
     padding-left: 0.625rem;
     text-decoration: none;
     color: white;
+    padding: 10px;
+}
+
+.hamburger-container {
+    color: white;
 }
 
 /* 
 MAIN 
 */
 
+
 main > section {
-margin: 1.875rem 0;
+margin: 1.25rem 0;
 }
 
 .cards {
@@ -215,9 +228,9 @@ DEBUG
     border: 1px solid black;
 }
 
-.debug .photo-partner {
+.debug
 
-}
-.debug .info-partner {
-
+.header-main-content nav a.button-like {
+    color: black;
+    background-color: white;
 }

@@ -59,3 +59,8 @@ GENERAL
     padding: 0 1.25rem;
     margin: 0 auto;
 }
+
+.button-like {
+    border-radius: 20px;
+    padding: 10px;
+}
