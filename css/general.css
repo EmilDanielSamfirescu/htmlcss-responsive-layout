@@ -60,7 +60,12 @@ GENERAL
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
+
 .button-like {
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
 }

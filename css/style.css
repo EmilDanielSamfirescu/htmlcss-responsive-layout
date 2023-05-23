@@ -37,10 +37,20 @@ header {
     color: white;
 }
 
+.hamburger-container:hover {
+    cursor: pointer;
+}
+
+.header-main-content nav a.button-like {
+    color: black;
+    background-color: white;
+}
+
 /* 
 MAIN 
 */
 
+/* --STRUCTURE-- */
 
 main > section {
 margin: 1.25rem 0;
@@ -57,8 +67,17 @@ margin: 1.25rem 0;
     margin: .625rem;
 }
 
+.card {
+    text-align: center;
+}
+
+.main-card-content > .phone-container {
+    text-align: center;
+}
+
 .card > div  {
-    padding: .625rem;
+    padding: 1.25rem;
+    border-radius: 10px;
 }
 
 .header-section-partner, .main-section-partner {
@@ -69,6 +88,43 @@ margin: 1.25rem 0;
     background-color: white;
     margin: .625rem 0;
 }
+
+
+/* --STYLE-- */
+
+.store {
+    background-color: var(--first-color);
+    color: white;
+}
+
+.store > span {
+    padding: 0 0.3125rem;
+}
+
+.button-store {
+    margin: 20px;
+}
+
+.app-store {
+    display: inline-block
+}
+
+.phone-container > img {
+    width: 50%;
+}
+
+.card div > h5 {
+    padding: 0.9375rem  0;
+}
+
+.card h5 {
+    font-size: 1.5em;
+}
+
+.card .fa-solid, .card h5 {
+    color: var(--first-color);
+}
+
 
 
 
@@ -95,6 +151,11 @@ RESPONSIVE
 /* 
 HEADER 
 */
+
+.main-card-content > .phone-container {
+    text-align: left;
+}
+
 
 /* 
 MAIN 
@@ -178,6 +239,14 @@ HEADER
     display: none;
 }
 
+/* .main-card-content div:first-child{
+    height: 50%;
+}
+
+.main-card-content div:last-child {
+    width: 50%;
+} */
+
 /* 
 MAIN 
 */
@@ -229,8 +298,3 @@ DEBUG
 }
 
 .debug
-
-.header-main-content nav a.button-like {
-    color: black;
-    background-color: white;
-}
