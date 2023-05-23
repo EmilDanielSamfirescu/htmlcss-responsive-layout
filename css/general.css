@@ -40,6 +40,7 @@ TIPHOGRAPHY SYSTEM
 
 
 
+
 /* 
 RESET 
 */
@@ -60,9 +61,7 @@ GENERAL
     margin: 0 auto;
 }
 
-img {
-    width: 100%;
-}
+
 
 .button-like {
     border-radius: 20px;

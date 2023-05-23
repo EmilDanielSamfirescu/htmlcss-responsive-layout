@@ -60,15 +60,14 @@ margin: 1.25rem 0;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -.625rem;
+    padding: 3.125rem 0;
 }
 
 .card {
     width: calc(100% - 1.25rem);
     margin: .625rem;
-}
-
-.card {
     text-align: center;
+    align-items: stretch;
 }
 
 .main-card-content > .phone-container {
@@ -76,7 +75,7 @@ margin: 1.25rem 0;
 }
 
 .card > div  {
-    padding: 1.25rem;
+    padding: 2.5rem 1.25rem;
     border-radius: 10px;
 }
 
@@ -92,9 +91,13 @@ margin: 1.25rem 0;
 
 /* --STYLE-- */
 
+
+/* --Prima sezione-- */
+
 .store {
     background-color: var(--first-color);
     color: white;
+    font-size: 1.5em;
 }
 
 .store > span {
@@ -102,7 +105,7 @@ margin: 1.25rem 0;
 }
 
 .button-store {
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .app-store {
@@ -110,20 +113,86 @@ margin: 1.25rem 0;
 }
 
 .phone-container > img {
-    width: 50%;
+    height: 300px;
 }
 
 .card div > h5 {
-    padding: 0.9375rem  0;
+    padding: 1.25rem  0;
 }
 
 .card h5 {
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+.card p {
+    font-size: 2em;
 }
 
 .card .fa-solid, .card h5 {
     color: var(--first-color);
 }
+
+.alto {
+    text-align: left;
+}
+
+
+
+
+
+/* --Seconda Sezione-- */
+
+.strategy-cards {
+    padding: 3.125rem 1.25rem;
+}
+
+.strategy-card:first-child img{
+    padding: 3.25rem 0;
+}
+
+.strategy-card h3 {
+    font-size: 2.5em;
+}
+
+.strategy-card p {
+    font-size: 2em;
+}
+
+.strategy-card > div > img {
+    width: 100%;
+}
+
+.upper-strategy p {
+    padding: 2.5rem 0;
+}
+
+.upper-strategy > * {
+    color: white;
+}
+
+.white-bg {
+    background-color: white;
+    border-radius: 3.125rem;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.white-bg h3 {
+    padding: 1.25rem 0;
+}
+
+.arrow > a {
+    color: black;
+}
+
+.arrow {
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 0.625rem 0.9375rem;
+    display: inline-block;
+    margin-top: 1.25rem;
+}
+
 
 
 
@@ -263,10 +332,16 @@ MAIN
 .strategy-cards {
     display: flex;
     justify-content: space-around;
+    padding: 0 1.25rem;
+    align-items: flex-end;
+}
+
+.strategy-card:first-child {
+    padding: 0.625rem 2.5rem;
 }
 
 .strategy-card {
-    padding: 0.625rem;
+width: 50%;
 }
 
 .benefit-card {
@@ -281,6 +356,14 @@ MAIN
     width: 20%;
 }
 
+.white-bg {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.white-bg > div > img {
+    width: 100%;
+    padding: 0 1.25rem;
+}
 
 /* 
 FOOTER 
@@ -293,7 +376,7 @@ FOOTER
 DEBUG 
 */
 
-.debug .strategy-card, .photo-partner, .info-partner, .benefit-card, .about-us-left, .about-us-right {
+.debug .photo-partner, .info-partner, .benefit-card, .about-us-left, .about-us-right {
     border: 1px solid black;
 }
 
