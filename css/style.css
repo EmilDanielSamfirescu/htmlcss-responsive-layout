@@ -6,6 +6,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .header-main-content {
@@ -35,6 +36,12 @@ header {
 
 .hamburger-container {
     color: white;
+    cursor: pointer;
+}
+
+.header-main-content nav a.button-like {
+    color: black;
+    background-color: white;
 }
 
 /* 
@@ -156,10 +163,10 @@ div.bigger-card {
 .arrow a {
     color: black;
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    line-height: 40px;
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: .625rem;
+    line-height: 2.5rem;
     border-radius: 50%;
 }
 
@@ -196,8 +203,8 @@ div.bigger-card {
 }
 .photo-partner {
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
 .info-partner {
@@ -299,6 +306,18 @@ div.photo-us {
     padding-bottom: 30px;
 }
 
+.photo-us {
+    position: relative;
+}
+
+.quote-cit- {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 4em;
+}
+
+
 
 /* 
 FOOTER 
@@ -309,8 +328,69 @@ footer {
 }
 
 .footer-container {
-    text-align: center;
+text-align: center;
 }
+
+.top-footer, .bottom-footer {
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.top-footer {
+    padding: 1.875rem 0;
+}
+
+.top-footer h5 {
+    font-size: 1.5em;
+    padding: 1.25rem 0;
+}
+
+.top-footer h3 {
+    font-size: 3.5em;
+    color: #fdc05f;
+}
+
+.top-footer p {
+    padding: 1.25rem 0;
+}
+
+.footer-button a {
+    padding: .3125rem .625rem;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.copy-right {
+    margin-top: .9375rem;
+}
+
+.copy-right > ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.copy-right > ul > li {
+    margin-left: 1.25rem;
+}
+
+.copy-right > ul > li > a{
+    color: white;
+}
+
+.copy-b {
+    display: inline-block;
+}
+
+.bottom-footer, .bottom-footer > p {
+    padding: 1.25rem 0;
+}
+
+.bottom-footer p a {
+    color: var(--secondary-color);
+}
+
 
 /* 
 RESPONSIVE
@@ -504,11 +584,5 @@ FOOTER
 DEBUG 
 */
 
-.debug .benefit-card {
-    border: 1px solid black;
-}
 
-.header-main-content nav a.button-like {
-    color: black;
-    background-color: white;
-}
+
