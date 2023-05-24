@@ -58,17 +58,8 @@ margin: 1.25rem 0;
     margin: .625rem;
 }
 
-.card {
-    text-align: center;
-}
-
-.main-card-content > .phone-container {
-    text-align: center;
-}
-
 .card > div  {
-    padding: 1.25rem;
-    border-radius: 10px;
+    padding: .625rem;
 }
 
 .header-section-partner, .main-section-partner {
@@ -79,43 +70,6 @@ margin: 1.25rem 0;
     background-color: white;
     margin: .625rem 0;
 }
-
-
-/* --STYLE-- */
-
-.store {
-    background-color: var(--first-color);
-    color: white;
-}
-
-.store > span {
-    padding: 0 0.3125rem;
-}
-
-.button-store {
-    margin: 20px;
-}
-
-.app-store {
-    display: inline-block
-}
-
-.phone-container > img {
-    width: 50%;
-}
-
-.card div > h5 {
-    padding: 0.9375rem  0;
-}
-
-.card h5 {
-    font-size: 1.5em;
-}
-
-.card .fa-solid, .card h5 {
-    color: var(--first-color);
-}
-
 
 
 
