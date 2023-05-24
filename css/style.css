@@ -37,20 +37,10 @@ header {
     color: white;
 }
 
-.hamburger-container:hover {
-    cursor: pointer;
-}
-
-.header-main-content nav a.button-like {
-    color: black;
-    background-color: white;
-}
-
 /* 
 MAIN 
 */
 
-/* --STRUCTURE-- */
 
 main > section {
 margin: 1.25rem 0;
@@ -66,8 +56,10 @@ margin: 1.25rem 0;
 .card {
     width: calc(100% - 1.25rem);
     margin: .625rem;
+}
+
+.card {
     text-align: center;
-    align-items: stretch;
 }
 
 .main-card-content > .phone-container {
@@ -75,7 +67,7 @@ margin: 1.25rem 0;
 }
 
 .card > div  {
-    padding: 2.5rem 1.25rem;
+    padding: 1.25rem;
     border-radius: 10px;
 }
 
@@ -91,13 +83,9 @@ margin: 1.25rem 0;
 
 /* --STYLE-- */
 
-
-/* --Prima sezione-- */
-
 .store {
     background-color: var(--first-color);
     color: white;
-    font-size: 1.5em;
 }
 
 .store > span {
@@ -105,7 +93,7 @@ margin: 1.25rem 0;
 }
 
 .button-store {
-    margin: 1.25rem;
+    margin: 20px;
 }
 
 .app-store {
@@ -113,86 +101,20 @@ margin: 1.25rem 0;
 }
 
 .phone-container > img {
-    height: 300px;
+    width: 50%;
 }
 
 .card div > h5 {
-    padding: 1.25rem  0;
+    padding: 0.9375rem  0;
 }
 
 .card h5 {
-    font-size: 2em;
-}
-
-.card p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .card .fa-solid, .card h5 {
     color: var(--first-color);
 }
-
-.alto {
-    text-align: left;
-}
-
-
-
-
-
-/* --Seconda Sezione-- */
-
-.strategy-cards {
-    padding: 3.125rem 1.25rem;
-}
-
-.strategy-card:first-child img{
-    padding: 3.25rem 0;
-}
-
-.strategy-card h3 {
-    font-size: 2.5em;
-}
-
-.strategy-card p {
-    font-size: 2em;
-}
-
-.strategy-card > div > img {
-    width: 100%;
-}
-
-.upper-strategy p {
-    padding: 2.5rem 0;
-}
-
-.upper-strategy > * {
-    color: white;
-}
-
-.white-bg {
-    background-color: white;
-    border-radius: 3.125rem;
-    text-align: center;
-    padding: 1.25rem;
-}
-
-.white-bg h3 {
-    padding: 1.25rem 0;
-}
-
-.arrow > a {
-    color: black;
-}
-
-.arrow {
-    background-color: var(--secondary-color);
-    border-radius: 50%;
-    padding: 0.625rem 0.9375rem;
-    display: inline-block;
-    margin-top: 1.25rem;
-}
-
 
 
 
@@ -220,11 +142,6 @@ RESPONSIVE
 /* 
 HEADER 
 */
-
-.main-card-content > .phone-container {
-    text-align: left;
-}
-
 
 /* 
 MAIN 
@@ -308,14 +225,6 @@ HEADER
     display: none;
 }
 
-/* .main-card-content div:first-child{
-    height: 50%;
-}
-
-.main-card-content div:last-child {
-    width: 50%;
-} */
-
 /* 
 MAIN 
 */
@@ -381,3 +290,8 @@ DEBUG
 }
 
 .debug
+
+.header-main-content nav a.button-like {
+    color: black;
+    background-color: white;
+}
