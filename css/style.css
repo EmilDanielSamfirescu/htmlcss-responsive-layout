@@ -63,6 +63,7 @@ margin: 1.25rem 0;
     padding: .625rem;
     border-radius: 10px;
     padding: 20px;
+    height: 100%;
 }
 
 .header-section-partner, .main-section-partner {
@@ -149,6 +150,12 @@ div.bigger-card {
 
 .arrow a {
     color: black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    line-height: 40px;
+    border-radius: 50%;
 }
 
 /* ---Sezione 3-- */
@@ -298,6 +305,14 @@ MAIN
 
 /* ---Sezione 1-- */
 
+.bigger-card {
+    display: flex;
+    align-items: end;
+}
+
+.bigger-card img {
+    max-width: 70%;
+}
 
 
 /* ---Sezione 2-- */
