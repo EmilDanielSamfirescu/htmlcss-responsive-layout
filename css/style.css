@@ -215,6 +215,46 @@ p.cit {
 }
 
 /* ---Sezione 4-- */
+
+
+.benefit-card {
+    padding: .9375rem;
+    border-radius: 20px;
+}
+
+.title-beneift-sectione h3 {
+    padding: 2.5rem 0;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.benefit-card h4 {
+    font-size: 2em;
+}
+
+.benefit-card h5 {
+    padding: .625rem 0;
+    font-size: 1.3em;
+}
+
+.benefit-card p {
+    margin-bottom: 1.25rem;
+}
+
+.button-like.more {
+    padding: .3125rem .9375rem;
+}
+
+.button-like.more a {
+    text-decoration: none;
+    color: white;
+}
+
+.benefits-cards:last-child {
+    padding-bottom: 1.875rem;
+}
+
 /* ---Sezione 5-- */
 
 
@@ -399,6 +439,11 @@ MAIN
 }
 
 /* ---Sezione 4-- */
+
+.benefit-card {
+    width: calc((100% / 3) - 1.25rem);
+}
+
 /* ---Sezione 5-- */
 
 
