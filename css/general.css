@@ -1,4 +1,31 @@
 /* 
+RESET 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+GENERAL 
+*/
+
+.container {
+    max-width: 71.25rem;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+}
+
+
+
+.button-like {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* 
 TIPHOGRAPHY SYSTEM
 -COLORS
 */
@@ -8,6 +35,7 @@ TIPHOGRAPHY SYSTEM
     --first-color-light:#B5DDFF;
     --secondary-color:#9792E4;
     --last-color: #333333;
+    --bg-setion-p: #f4f4f4;
 }
 
 .first-color-bg {
@@ -38,32 +66,6 @@ TIPHOGRAPHY SYSTEM
     background-color: var(--last-color);
 }
 
-
-
-
-/* 
-RESET 
-*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* 
-GENERAL 
-*/
-
-.container {
-    max-width: 1140px;
-    padding: 0 1.25rem;
-    margin: 0 auto;
-}
-
-
-
-.button-like {
-    border-radius: 20px;
-    padding: 10px;
+.white-bg {
+    background-color: var(--bg-setion-p);
 }
